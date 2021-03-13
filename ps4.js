@@ -153,18 +153,17 @@ function setupRW() {
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2"><a href="#" id="dumper" class="button" onclick="toggle_payload(\'dumper\'); return false" style="width:43%">Dumper</a>&nbsp;'+
-			'<a href="#" id="gtam132" class="button" onclick="toggle_payload(\'gtam132\'); return false" style="width:43%">GTAV M1 1.32</a>&nbsp;</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2">'+
-			'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\'); return false" style="width:43%">Restore</a>&nbsp;'+
+			'<a href="#" id="restore" class="button" onclick="toggle_payload(\'restore\'); return false" style="width:43%">DB Restore</a>&nbsp;'+
 			'<a href="#" id="fix30391" class="button" onclick="toggle_payload(\'fix30391\'); return false" style="width:43%;border-radius: 5px 0px 0px 5px;">CE-30391-6 Fix</a>&nbsp;'+
 			'</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2"><a href="#" id="ftp" class="button" onclick="toggle_payload(\'ftp\'); return false" style="width:43%">FTP</a>&nbsp;'+
-			'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:43%">BackUp</a>&nbsp;</td>'+
+			'<a href="#" id="backup" class="button" onclick="toggle_payload(\'backup\'); return false" style="width:43%">DB Backup</a>&nbsp;</td>'+
 			'</tr><tr><td><br/></td></tr>'+
 			'<tr>'+
 			'<td align="center" colspan="2"><a href="#" id="todex" class="button" onclick="toggle_payload(\'todex\'); return false" style="width:43%">To-DEX</a>&nbsp;'+
