@@ -260,7 +260,7 @@ function load_payload(){
 			stage2(pld.slice(0, -1));
 		}
 	}else{
-		alert("Select payload(s) before clicking Run!!");
+		alert("Selecione as cargas antes de clicar em Executar!!");
 	}
 }
 
@@ -345,7 +345,7 @@ function leakJSC() {
 		}
 	}
 	if (g_relative_read === null)
-		die("[!] Failed to setup a relative read primitive");
+		die("[!] Falha ao carregar por favor reinicie");
 
 	debug_log("-> Got a relative read");
 
