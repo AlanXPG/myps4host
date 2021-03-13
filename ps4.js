@@ -106,7 +106,7 @@ function setupRW() {
 
 	debug_log("Exploited Successfully !!");
 	
-	setTimeout(function(){document.getElementById("progress").innerHTML="PS4 Jailbreak 7.02 - Select the Payloads in its Order of Execution and Click Run..";}, 3500);
+	setTimeout(function(){document.getElementById("progress").innerHTML="Olá Alan :) - Selecione os Payloads em ordem de execução e clique em Run...";}, 3500);
 
 	/* Restore the overidden vtable pointer */
 	write64(guess_htmltextarea_addr, saved_vtable);
@@ -128,7 +128,7 @@ function setupRW() {
 	document.getElementById("myProgress").remove();
 	document.getElementById('load').innerHTML='<tr>'+
 			'<td align="center" colspan="2" >'+
-			'<a href="#" class="button" onclick="load_payload();" style="width:100%">Run Selected Payload(s)</a>&nbsp;'+
+			'<a href="#" class="button" onclick="load_payload();" style="width:100%">Injetar Payload(s)</a>&nbsp;'+
 			'</td>'+
 			'</tr>'+
 			'<tr><td><br/></td></tr>'+
