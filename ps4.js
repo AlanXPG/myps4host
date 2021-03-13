@@ -187,7 +187,7 @@ function toggle_payload(pld){
 		if(pldooe==""){pldooe=pld;pldooe_full=pld_full;}else if(pldooe.includes(pld)){pldooe=pldooe.replace(pld,"");pldooe_full=pldooe_full.replace(pld_full,"");}else{pldooe+=pld;pldooe_full+=pld_full;}
 		document.getElementById("pldooe").value = pldooe;
 		document.getElementById("pldooe_full").value = pldooe_full;
-		if(pldooe!=""){document.getElementById("progress").innerHTML="Order Of Execution - "+pldooe_full.slice(0, -2);}else{document.getElementById("progress").innerHTML="PS4 Jailbreak 7.02 - Select the Payloads in its Order of Execution and Click Run..";}
+		if(pldooe!=""){document.getElementById("progress").innerHTML="Ordem de Execução - "+pldooe_full.slice(0, -2);}else{document.getElementById("progress").innerHTML="PS4 Jailbreak 7.02 - Select the Payloads in its Order of Execution and Click Run..";}
 	}
 }
 
