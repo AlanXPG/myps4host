@@ -178,7 +178,7 @@ function setupRW() {
 }
 
 function toggle_payload(pld){
-	if(pld=="hen" || pld=="binloader"){if(confirm("HEN (or) Binloader cannot be loaded with any other payloads\nDo you still want to load this payload alone ?")){document.getElementById("pldooe").value = pld; load_payload();}}
+	if(pld=="hen" || pld=="binloader"){if(confirm("O HEN (ou) BINLOADER não pode ser carregado com nenhuma outra carga útil  Você ainda deseja carregar esta carga sozinha?")){document.getElementById("pldooe").value = pld; load_payload();}}
 	else{
 		var pldooe = document.getElementById("pldooe").value;
 		var pldooe_full = document.getElementById("pldooe_full").value;
